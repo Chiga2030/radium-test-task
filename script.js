@@ -44,6 +44,8 @@ const onKeyDownHandler = event => {
     if (elemsForRemove.length > 0) {
       elemsForRemove.forEach(element => element.remove());
     }
+
+    document.removeEventListener('keydown', onKeyDownHandler)
   }
 };
 
