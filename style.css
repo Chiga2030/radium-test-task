@@ -1,0 +1,18 @@
+body {
+  color: #303030;
+}
+
+.about-task_normal-indent,
+.about-me_normal-indent {
+  margin-left: .5rem;
+}
+
+.about-me__my-name_attention-color,
+.about-me__my-vacancy_attention-color {
+  color: #b22222;
+}
+
+.about-me__my-name_transparent-color,
+.about-me__my-vacancy_transparent-color {
+  color: transparent;
+}
