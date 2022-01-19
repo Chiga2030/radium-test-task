@@ -12,6 +12,7 @@ const onPointerOverHandler = event => {
 
 
 const onPointerDown = event => {
+  event.preventDefault();
   switchColorForElement('add', event, 'transparent');
 
   event.target.addEventListener('pointerup', onPointerUp)
